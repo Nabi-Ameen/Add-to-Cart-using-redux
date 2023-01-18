@@ -12,7 +12,7 @@ const Navbar = () => {
                 </div>
                 <div className='relative'>
                     <i className='text-4xl'><FaShoppingBag/></i>
-                    <div className='absolute -top-1 -right-2 w-6 h-6 rounded-full text-purple-900 bg-gray-300 flex items-center justify-center font-bold'>{amount}</div>
+                    <div className='absolute -top-1 -right-2 w-6 h-6 ring-1 ring-gray-500 text-gray-600 rounded-full text-purple-900 bg-gray-300 flex items-center justify-center font-bold'>{amount}</div>
                 </div>
             </div>
         </nav>

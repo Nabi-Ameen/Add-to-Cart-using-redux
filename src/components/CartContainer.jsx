@@ -28,7 +28,7 @@ const CartContainer = () => {
                 <hr />
                 <div className='flex justify-between pt-3'>
                     <p className='text-xl font-semibold'>Total</p>
-                    <p className='text-xl font-semibold'>${total}</p>
+                    <p className='text-xl font-semibold'>${total.toFixed(2)}</p>
                 </div>
 
                 <div className='text-center pt-8'>
