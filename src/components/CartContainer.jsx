@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { clearCart } from '../store/featurs/cartSlice'
+import { modelOpen } from '../store/featurs/modelSlice'
 import SingleCart from './SingleCart'
 
 const CartContainer = () => {
@@ -32,8 +32,7 @@ const CartContainer = () => {
                 </div>
 
                 <div className='text-center pt-8'>
-                    <button className='px-6 py-2 border-[1px] transition-all rounded-md hover:bg-red-500 hover:text-white font-semibold border-red-500 tracking-widest uppercase' onClick={() => dispatch(clearCart())}>clear cart</button>
-                   
+                    <button className='px-6 py-2 border-[1px] transition-all rounded-md hover:bg-red-500 hover:text-white font-semibold border-red-500 tracking-widest uppercase' onClick={() => dispatch(modelOpen())}>clear cart</button>
                 </div>
                     
             </footer>
